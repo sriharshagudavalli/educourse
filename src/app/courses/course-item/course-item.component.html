@@ -1,0 +1,25 @@
+<!-- <a class="list-group-item clearfix" (click)="onSelected()" style="cursor: pointer;" [routerLink]="[index]" routerLinkActive="active"> -->
+<a class="list-group-item clearfix" style="cursor: pointer;" [routerLink]="[index]">    
+    <div>
+        <img 
+            [src]="course.imagePath" 
+            alt="{{ course.name }}"
+            class="img-responsive"
+            style="max-height:50px;">
+    </div>
+    <div >
+        <h4 class="list-group-item-heading">course: {{ course.name }}</h4>
+        <p class="list-group-item-text">{{ course.shotdescription }}</p>
+        <p class="list-group-item-text">{{ course.description }}</p>
+        <p class="list-group-item-text">Faculty: {{ course.faculty }}</p>
+        <p class="list-group-item-text">{{ course.category }}</p>
+        <p class="list-group-item-text">{{ course.nlectures }} lectures</p>
+        <p class="list-group-item-text">{{ course.nhours }} hours</p>
+        <p class="list-group-item-text">{{ course.rating }}</p>
+        <p class="list-group-item-text"><span *ngIf="course.cost===0">{{ 'FREE' }}</span><span *ngIf="course.cost!==0">{{ course.cost }}</span></p>
+        <p class="list-group-item-text" *ngIf="course.tag">{{ course.tag }}</p>
+        <p class="list-group-item-text" *ngIf="course.specilization">{{ course.specilization }}</p>
+
+    </div>
+    
+</a>

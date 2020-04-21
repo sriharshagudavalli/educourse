@@ -1,0 +1,227 @@
+
+
+.section_gap {
+    padding: 120px 0; }
+    @media (max-width: 991px) {
+      .section_gap {
+        padding: 60px 0; } }
+
+
+.course_details_area .title {
+    font-size: 21px;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+    border-bottom: 1px solid #eeeeee;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 22px; }
+    .course_details_area .title:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      height: 1px;
+      width: 74px;
+      background: #4dbf1c; }
+
+.course_details_left .course_list {
+margin-bottom: 0; }
+@media (max-width: 575px) {
+    .course_details_left .course_list {
+    padding-left: 0; } }
+.course_details_left .course_list li {
+    list-style: none;
+    margin-bottom: 20px; }
+    .course_details_left .course_list li .primary-btn {
+    background: #f9f9f9;
+    color: #777777;
+    box-shadow: none;
+    font-size: 12px; }
+    .course_details_left .course_list li .primary-btn:hover {
+        background: #00aee0;
+        color: #ffffff;
+        box-shadow: 0px 10px 30px rgba(0, 175, 224, 0.3); }
+    @media (max-width: 575px) {
+        .course_details_left .course_list li .primary-btn {
+        min-width: 100px;
+        font-size: 10px;
+        padding: 0 10px; } }
+    .course_details_left .course_list li:last-child {
+    margin-bottom: 0; }
+
+.navbar .container {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+.home_banner_area .banner_inner .container {
+vertical-align: middle;
+align-self: center; }
+
+.primary-btn {
+    display: inline-block;
+    background: -webkit-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    background: -moz-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    background: -ms-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    background: -o-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    background-size: 200% auto;
+    padding: 0px 38px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 50px;
+    border-radius: 0px;
+    outline: none !important;
+    box-shadow: 0px 20px 50px rgba(0, 175, 224, 0.3);
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+    .primary-btn:hover {
+      background-position: right center;
+      color: #fff;
+      box-shadow: none; }
+
+a {
+text-decoration: none;
+transition: all 0.3s ease-in-out; }
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none; }
+
+@media (max-width: 991px) {
+    .right-contents {
+        margin-top: 50px; } }
+    .right-contents ul {
+    padding-left: 0; }
+    .right-contents ul li {
+        list-style: none;
+        background: #f9f9f9;
+        padding: 10px 22px;
+        margin-bottom: 10px; }
+        .right-contents ul li a {
+        color: #777777;
+        text-align: left; }
+        .right-contents ul li a p {
+            margin-bottom: 0px; }
+        .right-contents ul li .or {
+        color: #222222; }
+    .right-contents .enroll {
+    margin-top: 10px;
+    width: 100%; }
+    .right-contents .reviews span,
+    .right-contents .reviews .star {
+    width: 31%;
+    margin-bottom: 10px; }
+    .right-contents .avg-review {
+    background: #04091e;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 0px; }
+    .right-contents .avg-review span {
+        font-size: 18px;
+        color: #00aee0; }
+    @media (max-width: 991px) {
+        .right-contents .avg-review {
+        margin-bottom: 20px; } }
+    @media (max-width: 1024px) {
+    .right-contents .single-reviews .thumb {
+        margin-right: 10px; } }
+    .right-contents .single-reviews h5 {
+    display: inline-flex; }
+    @media (max-width: 1024px) {
+        .right-contents .single-reviews h5 {
+        display: block; } }
+    .right-contents .single-reviews h5 .star {
+        margin-left: 10px; }
+        @media (max-width: 1024px) {
+        .right-contents .single-reviews h5 .star {
+            margin: 10px 0; } }
+    .right-contents .feedeback {
+    margin-top: 30px; }
+    .right-contents .feedeback textarea {
+        resize: none;
+        height: 130px;
+        background: #f1f9ff; }
+        .right-contents .feedeback textarea:focus {
+        box-shadow: none; }
+    .right-contents .star .checked {
+    color: #4dbf1c; }
+    .right-contents .comments-area {
+    padding: 0;
+    border: 0;
+    background: transparent; }
+    .right-contents .comments-area .star {
+        margin-left: 20px; }
+      
+
+.comments-area .btn-reply:hover {
+    background: -webkit-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+    background: -moz-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+    background: -ms-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+    background: -o-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+    background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%); }
+
+
+.comments-area {
+    background: #fafaff;
+    border: 1px solid #eee;
+    padding: 50px 30px;
+    margin-top: 50px; }
+    @media (max-width: 414px) {
+    .comments-area {
+        padding: 50px 8px; } }
+    .comments-area h4 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #222222;
+    font-size: 18px; }
+    .comments-area h5 {
+    font-size: 16px;
+    margin-bottom: 0px; }
+    .comments-area a {
+    color: #222222; }
+    .comments-area .comment-list {
+    padding-bottom: 48px; }
+    .comments-area .comment-list:last-child {
+        padding-bottom: 0px; }
+    .comments-area .comment-list.left-padding {
+        padding-left: 25px; }
+    @media (max-width: 413px) {
+        .comments-area .comment-list .single-comment h5 {
+        font-size: 12px; }
+        .comments-area .comment-list .single-comment .date {
+        font-size: 11px; }
+        .comments-area .comment-list .single-comment .comment {
+        font-size: 10px; } }
+    .comments-area .thumb {
+    margin-right: 20px; }
+    .comments-area .date {
+    font-size: 13px;
+    color: #777777;
+    margin-bottom: 13px; }
+    .comments-area .comment {
+    color: #777777;
+    margin-bottom: 0px; }
+    .comments-area .btn-reply {
+    background-color: #fff;
+    color: #222222;
+    border: 1px solid #eee;
+    padding: 2px 18px;
+    font-size: 12px;
+    display: block;
+    font-weight: 600;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+    .comments-area .btn-reply:hover {
+        color: #fff; }    
+    .comments-area .thumb {
+          margin-right: 10px; }
