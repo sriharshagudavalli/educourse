@@ -1,0 +1,32 @@
+<section class="container py-5 text-center">
+	<h2 style="font-weight: 500!important;">E-Books</h2>
+	<hr/>
+	<div class="row active-with-click">
+		<div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-5" *ngFor="let ite of ks">
+			<article [ngClass]="['material-card', ite.color ]">
+				<h2>
+					<span>EBook name</span>
+					<strong>
+						<i class="fa fa-fw fa-pencil"></i>
+						author name
+					</strong>
+				</h2>
+				<div class="mc-content">
+					<div class="img-container">
+						<img class="img-fluid" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476018768l/32505550._SY475_.jpg" alt="" draggable="false" oncontextmenu="return false;" />
+					</div>
+					<div class="mc-description">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ...
+					</div>
+				</div>
+				<a class="mc-btn-action ripple">
+					<i class="fa fa-bars"></i>
+				</a>
+				<div class="mc-footer">
+					<a target="_parent" href="#!" >Download</a>
+					<a target="_parent" href="#!" >Details</a>
+				</div>
+			</article>
+		</div>
+	</div>
+</section>

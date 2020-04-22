@@ -18,6 +18,15 @@ import { CourseCategoryComponent } from './courses/course-category/course-catego
 import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { CoursesHomeComponent } from './courses/courses-home/courses-home.component';
+import { AboutComponent } from './homepage/about/about.component';
+import { EbookItemComponent } from './ebooks/ebook-item/ebook-item.component';
+import { CountercardsComponent } from './homepage/countercards/countercards.component';
+import { CcardComponent } from './homepage/ccard/ccard.component';
+import { HomepagedisplayComponent } from './courses/homepagedisplay/homepagedisplay.component';
+import { CarouselComponent } from './homepage/carousel/carousel.component';
+// import { FontAwesomeModule } from '@fortawesome/';
+
+
 
 
 
@@ -36,13 +45,20 @@ import { CoursesHomeComponent } from './courses/courses-home/courses-home.compon
     CourseCategoryComponent,
     LoadingSpinnerComponent,
     HomepageComponent,
-    CoursesHomeComponent
+    CoursesHomeComponent,
+    AboutComponent,
+    EbookItemComponent,
+    CountercardsComponent,
+    CcardComponent,
+    HomepagedisplayComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    // FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
